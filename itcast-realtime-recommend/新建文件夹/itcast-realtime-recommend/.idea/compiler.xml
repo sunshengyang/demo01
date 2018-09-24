@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="itcast-recommend-mahout" />
+        <module name="itcast-recommend-server" />
+        <module name="itcast-recommend-sina" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="itcast-realtime-recommend" target="1.5" />
+      <module name="itcast-recommend-mahout" target="1.5" />
+      <module name="itcast-recommend-server" target="1.5" />
+      <module name="itcast-recommend-sina" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
