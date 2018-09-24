@@ -28,6 +28,9 @@ public class BaseItemRecommender {
         //todo:2、将数据加载到内存中，GroupLensDataModel是针对开放电影评论数据的
         DataModel dataModel = new GroupLensDataModel(file);
 
+
+
+
         //todo:3、计算相似度，相似度算法有很多种，欧几里得、皮尔逊等等。
         ItemSimilarity itemSimilarity = new PearsonCorrelationSimilarity(dataModel);
 
