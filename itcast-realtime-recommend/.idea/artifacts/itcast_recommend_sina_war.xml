@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="itcast-recommend-sina:war">
-    <output-path>$PROJECT_DIR$/itcast-recommend-sina/target</output-path>
-    <root id="archive" name="itcast-recommend-sina.war">
-      <element id="artifact" artifact-name="itcast-recommend-sina:war exploded" />
-    </root>
-  </artifact>
-</component>
